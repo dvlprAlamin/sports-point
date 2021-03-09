@@ -1,0 +1,18 @@
+.single-league{
+    width: 18rem;
+    padding: .5rem;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #7868e6, #897cdd, #7868e6);
+}
+.explore-btn{
+    background: #b0aee4;
+    color: #7868e6;
+    border: #7868e6;
+}
+.explore-btn:hover .arrow-icon{
+    transform: translateX(7px);
+}
+.arrow-icon{
+    transition:transform .3s linear;
+}

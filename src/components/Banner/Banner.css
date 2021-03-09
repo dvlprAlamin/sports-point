@@ -1,0 +1,13 @@
+.banner {
+    background: url("../../images/stadium.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 48vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
