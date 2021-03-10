@@ -8,11 +8,11 @@ const Leagues = () => {
             .then(res => res.json())
             .then(data => setLeagues(data.leagues))
     }, [])
-    const newLeagues = leagues.slice(0, 18);
+    const first18 = leagues.slice(0, 18);
     return (
         <div className="container leagues-container">
             {
-                newLeagues.map(league => <League key={league.idLeague} league={league} />)
+                first18.map(league => <League key={league.idLeague} league={league} />)
             }
         </div>
     );
