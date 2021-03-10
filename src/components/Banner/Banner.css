@@ -15,3 +15,8 @@
   max-height: 8rem;
   max-width: 90%;
 }
+.back-btn{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}

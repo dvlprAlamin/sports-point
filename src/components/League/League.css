@@ -10,11 +10,6 @@
   transform: scale(1.01);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.52);
 }
-/* .explore-btn{
-    background: #bebdcf;
-    color: #7868e6;
-    border: #7868e6;
-} */
 .explore-btn:hover .arrow-icon {
   transform: translateX(7px);
 }
