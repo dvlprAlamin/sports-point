@@ -1,12 +1,26 @@
-import './App.css';
+import React from 'react';
+import './App.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Home from './components/Home/Home';
-
-function App() {
+import LeagueDetails from './components/LeagueDetails/LeagueDetails';
+const App = () => {
   return (
-    <div>
-      <Home />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/league/:id">
+          <LeagueDetails />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;

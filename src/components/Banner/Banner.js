@@ -1,9 +1,9 @@
 import React from 'react';
 import './Banner.css'
-const Banner = () => {
+const Banner = ({logo}) => {
     return (
         <div className="banner">
-            <h1 className="text-white">Sports Point</h1>
+            <img src={logo} alt=""/>
         </div>
     );
 };

@@ -1,6 +1,16 @@
-.leagues-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
-    margin: 2rem auto;
+.leagues-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem auto;
+}
+@media (max-width: 992px) {
+  .leagues-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .leagues-container {
+    grid-template-columns: 1fr;
+  }
 }

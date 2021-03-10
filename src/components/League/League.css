@@ -1,18 +1,23 @@
-.single-league{
-    width: 18rem;
-    padding: .5rem;
-    text-align: center;
-    margin: 0 auto;
-    background: linear-gradient(90deg, #7868e6, #897cdd, #7868e6);
+.single-league {
+  width: 18rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #7868e6, #897cdd, #7868e6);
+  transition: transform 0.3s linear;
 }
-.explore-btn{
-    background: #b0aee4;
+.single-league:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.52);
+}
+/* .explore-btn{
+    background: #bebdcf;
     color: #7868e6;
     border: #7868e6;
+} */
+.explore-btn:hover .arrow-icon {
+  transform: translateX(7px);
 }
-.explore-btn:hover .arrow-icon{
-    transform: translateX(7px);
-}
-.arrow-icon{
-    transition:transform .3s linear;
+.arrow-icon {
+  transition: transform 0.3s linear;
 }
