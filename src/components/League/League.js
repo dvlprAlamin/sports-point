@@ -18,7 +18,6 @@ const League = (props) => {
             <Card.Body>
                 <Card.Title className="text-white">{strLeague}</Card.Title>
                 <Card.Text className="text-warning">Sports type: {strSport}</Card.Text>
-
             </Card.Body>
             <Card.Footer className="border-0">
                 <Button as={Link} to={`/league/${idLeague}`} className="explore-btn" variant="dark">
